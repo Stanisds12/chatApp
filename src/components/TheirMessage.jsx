@@ -23,8 +23,9 @@ const TheirMessage = ({ lastMessage, message }) => {
                 className="message-image"
                 style={{ marginLeft: isFirstMessageByUser ? '4px' :'48px' }}
             />
-                    ) : (<><label>{message.sender.username}</label><div className="message" style={{ float: "left", backgroundColor: '#8F8785', marginLeft: isFirstMessageByUser ? '4px' : '48px'  }}>
+                    ) : (<><div className="message" style={{ float: "left", backgroundColor: '#8F8785', marginLeft: isFirstMessageByUser ? '4px' : '48px'  }}>
                         {message.text}
+                        <label className="text-right ml-auto text-white mt-2">{message.sender.username}</label>
                     </div></>)
     }
             
