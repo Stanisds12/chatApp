@@ -20,7 +20,7 @@ const Nav = () => {
                             <span className="nav-link">{localStorage.getItem("username")}</span>
                         </li>
                         <li id="signOff" className="nav-item">
-                            <span className="nav-link disabled"  tabindex="-1" aria-disabled="true" onClick={handleSignOut}>Sign Out</span>
+                            <span className="nav-link disabled"  tabIndex="-1" aria-disabled="true" onClick={handleSignOut}>Sign Out</span>
                         </li>
                     </ul>
                 </div>

@@ -42,7 +42,7 @@ const ChatFeed = (props) => {
       
     }
     
-    if (!chat) return (<div class="alert alert-primary mt-3" role="alert">
+    if (!chat) return (<div className="alert alert-primary mt-3" role="alert">
        No chats available at the moment
     </div>)
     return (
