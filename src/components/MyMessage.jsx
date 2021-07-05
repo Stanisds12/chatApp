@@ -12,9 +12,10 @@ const MyMessage = ({ message }) => {
         )
     }
     return ( 
-        <div className="message" style={{ float: "right", marginRight: '18px', color: 'white', backgroundColor:'#7F16B0'}}>
+        <div className="message" style={{ float: "right", marginRight: '18px', color: 'white', backgroundColor: '#7F16B0' }}>
+            <label className="text-right ml-auto text-white mb-2">You:</label><br/>
             {message.text}
-            <label className="text-right ml-auto text-white mt-2">you</label>
+           
         </div>
     );
 }
