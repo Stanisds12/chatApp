@@ -1,6 +1,6 @@
 import React from 'react';
-import { ChatEngine } from 'react-chat-engine';
-import ChatFeed from './components/ChatFeed'
+import { ChatEngine, ChatFeed } from 'react-chat-engine';
+//import ChatFeed from './components/ChatFeed'
 import LoginForm from './components/LoginForm';
 import Nav from './components/Nav';
 import './App.css';
