@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChatEngine, ChatFeed } from 'react-chat-engine';
+import { ChatEngine, ChatFeed, IsTyping } from 'react-chat-engine';
 //import ChatFeed from './components/ChatFeed'
 import LoginForm from './components/LoginForm';
 import Nav from './components/Nav';
@@ -16,6 +16,7 @@ function App() {
       userName={localStorage.getItem('username')}
       userSecret={localStorage.getItem('password')}
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}/>}
+        renderIsTyping={(typers) => <IsTyping />}
       />
       </>
   );
